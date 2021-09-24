@@ -1,0 +1,75 @@
+* {
+    --dark-color: #1C1427;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Ubuntu";
+    min-width: 100vw;
+    background-color: rgb(2, 119, 87);
+    color: white;
+}
+
+.head {
+    text-align: center;
+}
+
+ .para{
+    font-size: 1.3rem;
+}
+
+.container {
+    margin: 3rem auto 5rem;
+    text-align: center;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+
+.description {
+    font-size: larger;
+}
+label{
+    margin: 1rem;
+}
+input {
+    padding: 0.7rem;
+    display: block;
+    width: 40%;
+    font-size: 1rem;
+    border: 2px solid var(--dark-color);
+    border-radius: 0.75rem;
+    margin: auto;
+}
+#chck-btn {
+    font-size: 16px;
+     border-radius: 5rem; 
+     color:var(--dark-color); 
+    text-align: center;
+    max-width: 140px;
+    padding: 0.6rem 1.2rem;
+    margin: 1rem auto;
+}
+
+#rst-btn{
+    font-size: 16px;
+    border-radius: 5rem;    
+    color:var(--dark-color);
+    text-align: center;
+    max-width: 140px;
+    padding: 0.6rem 1.2rem;
+    margin: 1rem auto;
+
+}
+table, th, td {
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    border: 2px solid var(--dark-color);
+    border-collapse: collapse;
+    max-width: 100%;
+    table-layout: fixed;
+  }

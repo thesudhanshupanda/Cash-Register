@@ -24,17 +24,17 @@ function cashamountValidate(){
      if(cashGivenValue > billAmountValue){ 
          const moneyToReturn = cashGivenValue - billAmountValue;
          calculateChange(moneyToReturn);
-        //  cashTable.style.display ="block";
+        //  cash.style.display ="block";
      }else if(cashGivenValue === billAmountValue){
          showMessage("The cash given is equal to bill amount, hence no return money");
 
      }else {
          showMessage("The cash given should be atleast equal to bill amount");
-        //  cashTable.style.display ="none";
+        //  cash.style.display ="none";
      }
  }else{
     showMessage("Invalid bill amount")
-    // cashTable.style.display ="none";
+    // cash.style.display ="none";
  }
 }
 

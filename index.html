@@ -8,26 +8,28 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <nav id="headder">
+    <nav class="head">
         <h1> The Cash Register </h1>
     </nav>
 
     <div class="container">
-        <p>Welcome to the cash return manager !</p> 
-        <p>Enter the bill amount, cash given by the customer and know number of notes to return.</p>
+        <p class="para" >Welcome to the cash return manager !</p> 
+        <p class="para" >Enter the bill amount, cash given by the customer and know number of notes to return.</p>
 
         <label for="bill-amount">Bill Amount:</label>
-        <input type="number" id="bill-amount" placeholder="Enter the bill in numbers"> <br> <br>
+        <input type="number" id="bill-amount" placeholder="Enter the bill in numbers"> <br> 
 
         <label for="cashgiven">Cash Given:</label>
-        <input type="number" id="cashgiven" placeholder="Enter the cash received"> <br> <br>
+        <input type="number" id="cashgiven" placeholder="Enter the cash received"> <br> 
 
-
-        <button id="chck-btn">Check</button>
-        <button id="rst-btn">Reset</button>
+        <ul>
+            <button id="chck-btn">Check</button>
+            <button id="rst-btn">Reset</button>
+        </ul>
+        
         
         <div id="error-message"> </div>
-        <br> <br> <br>
+        <br> <br> 
 
 
         <div class="cashtable">

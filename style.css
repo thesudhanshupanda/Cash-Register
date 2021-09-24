@@ -76,3 +76,29 @@ table, th, td {
   ul{
     padding: 0;
   }
+  
+  footer {
+    width: 100%;
+    text-align: center;
+    padding:1rem;
+    /* margin-top: 1rem; */
+}
+.footer .heading{
+    text-align: center;
+    color: white;
+}
+.footer-list{
+    display:inline;
+    list-style: none;
+    text-align: center;
+    padding: 1rem;
+    /* margin-left: 0.5rem; */
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}

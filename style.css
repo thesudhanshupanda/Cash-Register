@@ -5,13 +5,16 @@
 
 body {
     font-family: "Ubuntu";
-    min-width: 100vw;
+    margin: auto;
+    min-width: 80vw;
     background-color: rgb(2, 119, 87);
     color: white;
 }
 
 .head {
     text-align: center;
+    background-color: black;
+    padding: 1rem;
 }
 
  .para{
@@ -81,7 +84,7 @@ table, th, td {
     width: 100%;
     text-align: center;
     padding:1rem;
-    /* margin-top: 1rem; */
+    background-color: black;
 }
 .footer .heading{
     text-align: center;
